@@ -57,6 +57,7 @@ To start qsuedo zookeeper cluster:
 
 6. you can use jps tool to check whether the process is succeed
    if everything ok, you should see the picture below
+   ![avatar](/readmeimg/img.png)
    
    or you can use the offcial tool zkCli.cmd in the zk/bin folder
    ./zkCli.cmd -server 127.0.0.1:2181 
