@@ -1,4 +1,5 @@
 # zookeeperTestDemo
+Records of learning zk and curator
 
 ## To start qsuedo zookeeper cluster:
 
