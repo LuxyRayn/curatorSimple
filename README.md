@@ -1,6 +1,7 @@
 # zookeeperTestDemo
 
-To start qsuedo zookeeper cluster:
+## To start qsuedo zookeeper cluster:
+
 1. download zookeeper
    
    ```
@@ -89,3 +90,8 @@ data--zoo-1
    ./zkCli.cmd -server 127.0.0.1:2181 
 
       
+
+
+
+## Zookeeper Demo desc
+
