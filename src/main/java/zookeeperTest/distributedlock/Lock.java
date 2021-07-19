@@ -1,4 +1,4 @@
-package zookeeperTest.distributelock;
+package zookeeperTest.distributedlock;
 
 /**
  * Lock interface

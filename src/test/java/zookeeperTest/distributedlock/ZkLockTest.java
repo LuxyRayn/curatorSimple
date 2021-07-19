@@ -1,16 +1,11 @@
-package zookeeperTest.distributelock;
+package zookeeperTest.distributedlock;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;
-import org.apache.log4j.Logger;
 import org.junit.Test;
 import zookeeperTest.concurrent.FutureTaskScheduler;
 import zookeeperTest.factory.ZKclient;
-
-import java.util.concurrent.FutureTask;
-
-import static org.junit.Assert.*;
 
 /**
  * Lock implement tester
