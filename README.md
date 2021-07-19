@@ -124,15 +124,15 @@ In idmaker folder, we have the SnowflakeIdGenerator.java which is used to genera
 
 The SnowflakeIdGenerator.java shows how to use the algo in zk
 
-you can find out the test of it in <u>src/test/java/zookeeperTest/idmaker/SnowflakeIdGeneratorTest.java</u>
+you can find out the test of it in <u>**src/test/java/zookeeperTest/idmaker/SnowflakeIdGeneratorTest.java**</u>
 
 
 
 ### distributedLock
 
-In distributedLock folder,  the ZKLock.java shows how to realize a distributed reentrant lock in ZK, you can find out the test function in <u>src/main/java/zookeeperTest/distributedlock/ZkLock.java (testLock())</u>
+In distributedLock folder,  the ZKLock.java shows how to realize a distributed reentrant lock in ZK, you can find out the test function in **<u>src/main/java/zookeeperTest/distributedlock/ZkLock.java (testLock())</u>**
 
-But in reality, we don't recommended to realize our own distributed lock in the production, because curator has already realized the tools for use(InterProcessMutex). You can find out the simple use of InterProcessMutex in In distributedLock folder,  the ZKLock.java shows how to realize a distributed reentrant lock in ZK, you can find out the test function in <u>src/main/java/zookeeperTest/distributedlock/ZkLock.java (testzkMutex())</u>
+But in reality, we don't recommended to realize our own distributed lock in the production, because curator has already realized the tools for use(InterProcessMutex). You can find out the simple use of InterProcessMutex in In distributedLock folder,  the ZKLock.java shows how to realize a distributed reentrant lock in ZK, you can find out the test function in **<u>src/main/java/zookeeperTest/distributedlock/ZkLock.java (testzkMutex())</u>**
 
 
 
@@ -140,4 +140,6 @@ But in reality, we don't recommended to realize our own distributed lock in the 
 
 In concurrent source code folder, you can use the FutureTaskScheduler to launch a concurrency task
 
-the test can be found in <u>src/test/java/zookeeperTest/distributelock/ZkLockTest.java</u>
+the test can be found in <u>**src/test/java/zookeeperTest/distributelock/ZkLockTest.java**</u>
+
+****
