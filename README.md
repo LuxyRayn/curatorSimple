@@ -1,7 +1,7 @@
 # curatorSimple
 Records of learning zk and curator
 
-## To start qsuedo zookeeper cluster:
+## To start psuedo zookeeper cluster:
 
 1. download zookeeper
    
